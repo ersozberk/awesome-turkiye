@@ -61,14 +61,21 @@ func generateMarkdown(data Data, lang string) string {
 	// 1. Başlık ve Dil Geçişi (Header)
 	if lang == "en" {
 		sb.WriteString("# Awesome Turkiye 🇹🇷\n\n")
+		// CI/CD ve Lisans Rozetleri
+		sb.WriteString("![Validator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg) ")
+		sb.WriteString("![Generator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg) ")
+		sb.WriteString("![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)\n\n")
+
 		sb.WriteString("A curated database of the Turkish Open Source Ecosystem, Communities, and Digital Life.\n\n")
-		sb.WriteString("🌍 **[Türkçe versiyon için tıklayın](README.tr.md)** | 🌐 **[Website & Discovery Engine](#)**\n\n")
-		sb.WriteString("> **Note:** Please do not edit this README directly. To add your project, update the `data.json` file. Read the [Contribution Guidelines](CONTRIBUTING.md).\n\n")
+		sb.WriteString("🌍 **[Türkçe versiyon için tıklayın](README.tr.md)** | 🌐 **[Website & Discovery Engine](https://awesome-turkiye-something.vercel.app)**\n\n") // Vercel linkini buraya ekleyebilirsin
 	} else {
 		sb.WriteString("# Harika Türkiye 🇹🇷\n\n")
+		sb.WriteString("![Validator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg) ")
+		sb.WriteString("![Generator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg) ")
+		sb.WriteString("![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)\n\n")
+
 		sb.WriteString("Türkiye Açık Kaynak Ekosistemi, Toplulukları ve Dijital Yaşamı için küratörlü veritabanı.\n\n")
-		sb.WriteString("🌍 **[Click here for the English version](README.md)** | 🌐 **[Web Sitesi ve Keşif Motoru](#)**\n\n")
-		sb.WriteString("> **Not:** Lütfen bu dosyayı doğrudan düzenlemeyin. Projenizi eklemek için `data.json` dosyasını güncelleyin. Detaylar için [Katkıda Bulunma Rehberine](CONTRIBUTING.md) göz atın.\n\n")
+		sb.WriteString("🌍 **[Click here for the English version](README.md)** | 🌐 **[Web Sitesi ve Keşif Motoru](https://awesome-turkiye-something.vercel.app)**\n\n")
 	}
 
 	// 2. İçindekiler Tablosu (Table of Contents)
@@ -107,6 +114,18 @@ func generateMarkdown(data Data, lang string) string {
 
 	// 4. Lisans Altbilgisi
 	sb.WriteString("---\n\n")
+	if lang == "en" {
+		sb.WriteString("## 💖 Contributors\n\n")
+		sb.WriteString("Thanks to everyone who has contributed to this project! Submit a PR to see your face here.\n\n")
+	} else {
+		sb.WriteString("## 💖 Katkıda Bulunanlar\n\n")
+		sb.WriteString("Bu projeye katkı sağlayan herkese teşekkürler! Yüzünüzü burada görmek için bir PR gönderin.\n\n")
+	}
+
+	// Sihirli satır: GitHub API'sinden projeye PR atan herkesin resmini otomatik çeker
+	sb.WriteString("[![Contributors](https://contrib.rocks/image?repo=ersozberk/awesome-turkiye)](https://github.com/ersozberk/awesome-turkiye/graphs/contributors)\n\n")
+
+	sb.WriteString("---\n")
 	if lang == "en" {
 		sb.WriteString("Built with ❤️ using Go and GitHub Actions. MIT License.")
 	} else {
