@@ -7,7 +7,7 @@
       "projects": [
         {
           "name": "Nolymarket",
-          "repo_url": "https://github.com/ersozberk/noly-market",
+          "repo_url": "https://github.com/ersozberk/ai-petition-assistant",
           "description": { "en": "Real-time prediction market platform.", "tr": "Gerçek zamanlı tahmin pazarı platformu." },
           "tags": ["nextjs", "supabase", "go"]
         }
