@@ -1,10 +1,10 @@
 # Awesome Turkiye 🇹🇷
 
+![Validator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg) ![Generator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 A curated database of the Turkish Open Source Ecosystem, Communities, and Digital Life.
 
-🌍 **[Türkçe versiyon için tıklayın](README.tr.md)** | 🌐 **[Website & Discovery Engine](#)**
-
-> **Note:** Please do not edit this README directly. To add your project, update the `data.json` file. Read the [Contribution Guidelines](CONTRIBUTING.md).
+🌍 **[Türkçe versiyon için tıklayın](README.tr.md)** | 🌐 **[Website & Discovery Engine](https://awesome-turkiye-something.vercel.app)**
 
 ## Contents
 - [Software & Open Source](#software-&-open-source)
@@ -22,4 +22,11 @@ A curated database of the Turkish Open Source Ecosystem, Communities, and Digita
 
 ---
 
+## 💖 Contributors
+
+Thanks to everyone who has contributed to this project! Submit a PR to see your face here.
+
+[![Contributors](https://contrib.rocks/image?repo=ersozberk/awesome-turkiye)](https://github.com/ersozberk/awesome-turkiye/graphs/contributors)
+
+---
 Built with ❤️ using Go and GitHub Actions. MIT License.

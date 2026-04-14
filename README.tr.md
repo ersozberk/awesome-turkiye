@@ -1,10 +1,10 @@
 # Harika Türkiye 🇹🇷
 
+![Validator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg) ![Generator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Türkiye Açık Kaynak Ekosistemi, Toplulukları ve Dijital Yaşamı için küratörlü veritabanı.
 
-🌍 **[Click here for the English version](README.md)** | 🌐 **[Web Sitesi ve Keşif Motoru](#)**
-
-> **Not:** Lütfen bu dosyayı doğrudan düzenlemeyin. Projenizi eklemek için `data.json` dosyasını güncelleyin. Detaylar için [Katkıda Bulunma Rehberine](CONTRIBUTING.md) göz atın.
+🌍 **[Click here for the English version](README.md)** | 🌐 **[Web Sitesi ve Keşif Motoru](https://awesome-turkiye-something.vercel.app)**
 
 ## İçindekiler
 - [Yazılım ve Açık Kaynak](#yazılım-ve-açık-kaynak)
@@ -22,4 +22,11 @@ Türkiye Açık Kaynak Ekosistemi, Toplulukları ve Dijital Yaşamı için küra
 
 ---
 
+## 💖 Katkıda Bulunanlar
+
+Bu projeye katkı sağlayan herkese teşekkürler! Yüzünüzü burada görmek için bir PR gönderin.
+
+[![Contributors](https://contrib.rocks/image?repo=ersozberk/awesome-turkiye)](https://github.com/ersozberk/awesome-turkiye/graphs/contributors)
+
+---
 Go ve GitHub Actions kullanılarak ❤️ ile geliştirildi. MIT Lisansı.
