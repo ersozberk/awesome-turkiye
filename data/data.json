@@ -7,7 +7,7 @@
       "projects": [
         {
           "name": "Nolymarket",
-          "repo_url": "https://github.com/ersozberk/noly-market",
+          "repo_url": "https://github.com/bu-sayfa-kesinlikle-yok-12345",
           "description": { "en": "Real-time prediction market platform.", "tr": "Gerçek zamanlı tahmin pazarı platformu." },
           "tags": ["nextjs", "supabase", "go"]
         }
