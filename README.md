@@ -14,7 +14,7 @@ A curated database of the Turkish Open Source Ecosystem, Communities, and Digita
 
 ## Software & Open Source
 
-- [Nolymarket](https://github.com/ersozberk/noly-market) - Real-time prediction market platform. `#nextjs` `#supabase` `#go` 
+- [Nolymarket](https://github.com/ersozberk/ai-petition-assistant) - Real-time prediction market platform. `#nextjs` `#supabase` `#go` 
 
 ## Living & Culture
 

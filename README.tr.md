@@ -14,7 +14,7 @@ Türkiye Açık Kaynak Ekosistemi, Toplulukları ve Dijital Yaşamı için küra
 
 ## Yazılım ve Açık Kaynak
 
-- [Nolymarket](https://github.com/ersozberk/noly-market) - Gerçek zamanlı tahmin pazarı platformu. `#nextjs` `#supabase` `#go` 
+- [Nolymarket](https://github.com/ersozberk/ai-petition-assistant) - Gerçek zamanlı tahmin pazarı platformu. `#nextjs` `#supabase` `#go` 
 
 ## Yaşam ve Kültür
 
