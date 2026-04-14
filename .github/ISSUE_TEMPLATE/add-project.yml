@@ -1,0 +1,46 @@
+name: Yeni Proje Ekle (Add New Project)
+description: Awesome Türkiye listesine yeni bir açık kaynak proje veya kaynak önerin.
+title: "[Proje]: <Proje Adı>"
+labels: ["enhancement", "pending-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🇹🇷 Awesome Türkiye'ye Hoş Geldin!
+        Lütfen öncelikle [Katkıda Bulunma Rehberini (CONTRIBUTING.md)](../CONTRIBUTING.md) okuduğundan emin ol. Projenin `data.json` dosyasına eklenmesi için bu formu eksiksiz doldur.
+  - type: input
+    id: project_name
+    attributes:
+      label: Proje Adı (Project Name)
+      placeholder: Örn: Nolymarket
+    validations:
+      required: true
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL (GitHub/GitLab vb.)
+      placeholder: https://github.com/kullaniciadi/proje
+    validations:
+      required: true
+  - type: textarea
+    id: desc_en
+    attributes:
+      label: İngilizce Açıklama (English Description)
+      description: Projenin ne yaptığını anlatan maksimum 2 cümlelik İngilizce açıklama.
+    validations:
+      required: true
+  - type: textarea
+    id: desc_tr
+    attributes:
+      label: Türkçe Açıklama (Turkish Description)
+      description: Projenin ne yaptığını anlatan maksimum 2 cümlelik Türkçe açıklama.
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Etiketler (Tags)
+      description: Aralarına virgül koyarak yazın.
+      placeholder: react, nextjs, ai
+    validations:
+      required: true
