@@ -1,0 +1,46 @@
+name: Auto-Generate READMEs
+
+# Bu action PR onaylanıp (push) main branch'e geçtiğinde çalışır.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/data.json'
+
+# Robotun commit atabilmesi için yazma izni veriyoruz.
+permissions:
+  contents: write
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu Klonla
+        uses: actions/checkout@v4
+
+      - name: Go Ortamını Kur
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: README Jeneratörünü Çalıştır
+        run: |
+          echo "Yeni README dosyaları üretiliyor..."
+          cd scripts/cmd/readme-gen
+          go run main.go
+
+      - name: Değişiklikleri Commit'le ve Pushla
+        run: |
+          # Git kimliğini 'Bot' olarak ayarla
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # README dosyalarını stage'e al
+          git add README.md README.tr.md
+          
+          # Eğer değişiklik varsa commit at, yoksa atlama yap (hata vermesini önler)
+          git diff-index --quiet HEAD || git commit -m "docs: auto-update README files [skip ci]"
+          
+          # Ana branch'e pushla
+          git push

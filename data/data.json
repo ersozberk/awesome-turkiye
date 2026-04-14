@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-04-14T00:00:00Z",
+  "categories": [
+    {
+      "id": "open-source-tech",
+      "title": { "en": "Software & Open Source", "tr": "Yazılım ve Açık Kaynak" },
+      "projects": [
+        {
+          "name": "Nolymarket",
+          "repo_url": "https://github.com/ersozberk/noly-market",
+          "description": { "en": "Real-time prediction market platform.", "tr": "Gerçek zamanlı tahmin pazarı platformu." },
+          "tags": ["nextjs", "supabase", "go"]
+        }
+      ]
+    },
+    {
+      "id": "living-culture",
+      "title": { "en": "Living & Culture", "tr": "Yaşam ve Kültür" },
+      "projects": [
+        {
+          "name": "Digital Nomad Guide: Izmir",
+          "repo_url": "https://izmir.goturkiye.com/",
+          "description": { "en": "A comprehensive guide for developers living in Izmir.", "tr": "İzmir'de yaşayan geliştiriciler için kapsamlı rehber." },
+          "tags": ["lifestyle", "nomad", "izmir"]
+        }
+      ]
+    }
+  ]
+}

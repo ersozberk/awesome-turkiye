@@ -1,0 +1,25 @@
+name: Validate JSON Data
+
+# Bu action SADECE data.json değiştiğinde ve bir PR açıldığında çalışır.
+on:
+  pull_request:
+    paths:
+      - 'data/data.json'
+
+jobs:
+  validate-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu Klonla
+        uses: actions/checkout@v4
+
+      - name: Go Ortamını Kur
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22' # Güncel ve stabil bir Go sürümü
+
+      - name: Validator Scriptini Çalıştır
+        run: |
+          echo "Veritabanı sağlık kontrolü başlatılıyor..."
+          cd scripts/cmd/validator
+          go run main.go
