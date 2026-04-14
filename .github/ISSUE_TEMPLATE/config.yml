@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Katkıda Bulunma Rehberi (Zorunlu)
+    url: https://github.com/ersozberk/awesome-turkiye/blob/main/CONTRIBUTING.md
+    about: Lütfen projeye ekleme yapmadan önce kurallarımızı okuyun.
