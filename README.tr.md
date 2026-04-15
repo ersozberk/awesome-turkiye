@@ -1,18 +1,24 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ef4444&height=200&section=header&text=Awesome%20Türkiye&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Awesome Turkiye Banner" />
+# 🇹🇷 Awesome Türkiye
 
-### 🌍 Türkiye'nin Açık Kaynak ve Teknoloji Ekosistemi Haritası
+**Türkiye'nin Açık Kaynak ve Teknoloji Ekosistemi Haritası**
 
 Türkiye'den çıkan açık kaynak projeler, teknoloji toplulukları ve dijital yaşam rehberleri için topluluk odaklı veritabanı.
 
-![Validator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg) ![Generator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Validator](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg)](https://github.com/ersozberk/awesome-turkiye/actions) [![Generator](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg)](https://github.com/ersozberk/awesome-turkiye/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-🌐 **[Canlı Web Sitesini Keşfet](https://awesome-turkiye.vercel.app)** • 🤝 **[Nasıl Katkıda Bulunurum?](CONTRIBUTING.md)** • 🇬🇧 **[English](README.md)**
+🌐 **[Canlı Keşif Motoru](https://awesome-turkiye.vercel.app)** &nbsp;•&nbsp; 🤝 **[Katkıda Bulun](CONTRIBUTING.md)** &nbsp;•&nbsp; 🇬🇧 **[English](README.md)**
 
 </div>
 
 ---
+
+## ⚙️ Mimari Altyapı
+Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
+- **Veri Katmanı:** Tüm içerik merkezi bir `data.json` dosyasından yönetilir.
+- **CI/CD Boru Hattı:** Özel yazılmış **Go** botları, kırık linkleri tespit eder ve GitHub Actions üzerinden iki dilde README üretir.
+- **Keşif Motoru:** Keşfedilebilirlik için optimize edilmiş, ışık hızında bir **Next.js** web arayüzü.
 
 ## 📋 İçindekiler
 
@@ -35,98 +41,123 @@ Türkiye'den çıkan açık kaynak projeler, teknoloji toplulukları ve dijital 
 
 ## <a name="frontend-and-ui"></a>Frontend ve UI Kütüphaneleri
 
-- **[Baklava UI](https://github.com/Trendyol/baklava)** - *Trendyol tarafından geliştirilen, Web Component tabanlı UI kütüphanesi ve tasarım sistemi.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Baklava UI](https://github.com/Trendyol/baklava)** | Trendyol tarafından geliştirilen, Web Component tabanlı UI kütüphanesi ve tasarım sistemi. | `web-components`, `design-system`, `react`, `vue` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="backend-and-devops"></a>Backend, Sistem ve DevOps
 
-- **[fatih/color](https://github.com/fatih/color)** - *Go dilinde terminal çıktılarını renklendirmek için global standart kütüphane.*
-- **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** - *Node.js için resmi Iyzico ödeme altyapısı entegrasyonu.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[fatih/color](https://github.com/fatih/color)** | Go dilinde terminal çıktılarını renklendirmek için global standart kütüphane. | `go`, `golang`, `terminal`, `cli` |
+| **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Node.js için resmi Iyzico ödeme altyapısı entegrasyonu. | `fintech`, `payment`, `nodejs`, `sdk` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="ai-and-data"></a>Yapay Zeka ve Veri Bilimi
 
-- **[Trendyol LLM](https://huggingface.co/Trendyol)** - *Türkçe doğal dil işleme için özel olarak eğitilmiş açık kaynaklı Büyük Dil Modelleri.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Trendyol LLM](https://huggingface.co/Trendyol)** | Türkçe doğal dil işleme için özel olarak eğitilmiş açık kaynaklı Büyük Dil Modelleri. | `ai`, `llm`, `nlp`, `machine-learning` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="mobile-and-game"></a>Mobil ve Oyun Geliştirme
 
-- **[Gamegine](https://github.com/gamegine)** - *Açık kaynak oyun geliştirme araçları, eğitim teknolojileri ve çapraz platform bileşenleri.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Gamegine](https://github.com/gamegine)** | Açık kaynak oyun geliştirme araçları, eğitim teknolojileri ve çapraz platform bileşenleri. | `game-dev`, `unreal-engine`, `educational` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="tech-for-good"></a>Sosyal Etki ve Afet Teknolojileri
 
-- **[Açık Yazılım Ağı (Afet.org)](https://github.com/acikkaynak/deprem-io)** - *Açık kaynak afet iletişim ve koordinasyon platformu (deprem.io).*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Açık Yazılım Ağı (Afet.org)](https://github.com/acikkaynak/deprem-io)** | Açık kaynak afet iletişim ve koordinasyon platformu (deprem.io). | `social-good`, `react`, `disaster-relief`, `nextjs` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="communities-and-events"></a>Topluluklar ve Geliştirici Grupları
 
-- **[Devnot](https://github.com/devnotcom)** - *Yazılımcılar için Türkçe makale, etkinlik ve topluluk kaynakları platformu.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Devnot](https://github.com/devnotcom)** | Yazılımcılar için Türkçe makale, etkinlik ve topluluk kaynakları platformu. | `community`, `articles`, `education` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="content-and-podcasts"></a>İçerik, Blog ve Podcastler
 
-- **[Codefiction](https://github.com/codefiction)** - *Türkiye'nin en popüler yazılım, teknoloji ve mühendislik podcast topluluklarından biri.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Codefiction](https://github.com/codefiction)** | Türkiye'nin en popüler yazılım, teknoloji ve mühendislik podcast topluluklarından biri. | `podcast`, `engineering`, `community` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="indie-makers-saas"></a>Bağımsız Ürünler ve Micro-SaaS
 
-- **[Noly Market](https://github.com/ersozberk/nolymarket)** - *Yeni nesil tahmin pazarı ve dijital varlık platformu.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Noly Market](https://github.com/ersozberk/nolymarket)** | Yeni nesil tahmin pazarı ve dijital varlık platformu. | `fintech`, `nextjs`, `prediction-market`, `indie-saas` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="web3-and-blockchain"></a>Web3 ve Merkeziyetsiz Sistemler
 
-- **[AvalancheGo (Ava Labs)](https://github.com/ava-labs/avalanchego)** - *Emin Gün Sirer liderliğindeki Avalanche ağının resmi Go implementasyonu.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[AvalancheGo (Ava Labs)](https://github.com/ava-labs/avalanchego)** | Emin Gün Sirer liderliğindeki Avalanche ağının resmi Go implementasyonu. | `blockchain`, `web3`, `golang`, `crypto` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="expat-and-nomad-guide"></a>Expat ve Dijital Göçebe Rehberi
 
-- **[Digital Nomad Guide: Izmir](https://github.com/awesome-turkiye/guides)** - *İzmir'e (Göztepe, Urla vb.) yerleşecek uzaktan çalışanlar için kapsamlı rehber.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Digital Nomad Guide: Izmir](https://github.com/awesome-turkiye/guides)** | İzmir'e (Göztepe, Urla vb.) yerleşecek uzaktan çalışanlar için kapsamlı rehber. | `nomad`, `izmir`, `remote-work`, `living` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="daily-survival-apps"></a>Günlük Yaşam ve Yerel Uygulamalar
 
-- **[Turkey Survival Kit](https://github.com/awesome-turkiye/apps)** - *Türkiye'de hayat kurtaran uygulamalar listesi (Yemeksepeti, Getir, Moovit vb.).*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Turkey Survival Kit](https://github.com/awesome-turkiye/apps)** | Türkiye'de hayat kurtaran uygulamalar listesi (Yemeksepeti, Getir, Moovit vb.). | `apps`, `survival`, `transportation`, `food` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="travel-and-tourism"></a>Gezi ve Turizm Rehberi
 
-- **[Museum Pass Turkey Guide](https://github.com/awesome-turkiye/tourism)** - *Efes ve Kapadokya gibi tarihi alanları gezmek için Müze Kart alma ve kullanma rehberi.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Museum Pass Turkey Guide](https://github.com/awesome-turkiye/tourism)** | Efes ve Kapadokya gibi tarihi alanları gezmek için Müze Kart alma ve kullanma rehberi. | `tourism`, `history`, `travel`, `museums` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="culture-and-food"></a>Kültür ve Gastronomi
 
-- **[Turkish Coffee & Food Dictionary](https://github.com/awesome-turkiye/culture)** - *Türk sokak lezzetleri, kahve kültürü ve yemek adabı için açık kaynak sözlük.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Turkish Coffee & Food Dictionary](https://github.com/awesome-turkiye/culture)** | Türk sokak lezzetleri, kahve kültürü ve yemek adabı için açık kaynak sözlük. | `food`, `culture`, `coffee`, `gastronomy` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ## <a name="career-and-remote-life"></a>Kariyer ve Uzaktan Çalışma
 
-- **[Tech Salary Reports TR](https://github.com/awesome-turkiye/career)** - *Türkiye'deki yazılımcı maaşları üzerine açık veri ve yıllık raporlar.*
+| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
+| :--- | :--- | :--- |
+| **[Tech Salary Reports TR](https://github.com/awesome-turkiye/career)** | Türkiye'deki yazılımcı maaşları üzerine açık veri ve yıllık raporlar. | `career`, `salary`, `remote-work`, `data` |
 
-[⬆️ Başa Dön](#-içindekiler)
+<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
 ---
 
-<div align="center">
-
 ## 💖 Katkıda Bulunanlar
 
-Bu projeyi büyüten herkese teşekkürler! Yüzünüzü burada görmek için bir PR gönderin.
+<a href="https://github.com/ersozberk/awesome-turkiye/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ersozberk/awesome-turkiye" alt="Contributors" />
+</a>
 
-[![Contributors](https://contrib.rocks/image?repo=ersozberk/awesome-turkiye)](https://github.com/ersozberk/awesome-turkiye/graphs/contributors)
-
-<br/><p>Go ve GitHub Actions kullanılarak ❤️ ile geliştirildi. MIT Lisansı.</p>
-</div>
+> Go ve Next.js mimarisiyle geliştirildi. MIT Lisansı ile dağıtılmaktadır.

@@ -58,36 +58,50 @@ func generateMarkdown(data Data, lang string) string {
 	var sb strings.Builder
 
 	// ==========================================
-	// 1. HERO SECTION (BÜYÜK GÖRSEL VE ORTALANMIŞ BAŞLIK)
+	// 1. HEADER (MİNİMALİST VE KURUMSAL)
 	// ==========================================
 	sb.WriteString("<div align=\"center\">\n\n")
-
-	// Dinamik, hareketli ve projenin renklerine (Kırmızı/Siyah) uygun GitHub afişi
-	sb.WriteString("<img src=\"https://capsule-render.vercel.app/api?type=waving&color=ef4444&height=200&section=header&text=Awesome%20Türkiye&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=ffffff\" alt=\"Awesome Turkiye Banner\" />\n\n")
+	sb.WriteString("# 🇹🇷 Awesome Türkiye\n\n")
 
 	if lang == "en" {
-		sb.WriteString("### 🌍 The Digital Map of Turkey's Open Source & Tech Ecosystem\n\n")
+		sb.WriteString("**The Digital Map of Turkey's Open Source & Tech Ecosystem**\n\n")
 		sb.WriteString("A curated, community-driven database of Turkish open-source projects, tech communities, and digital nomad guides.\n\n")
 	} else {
-		sb.WriteString("### 🌍 Türkiye'nin Açık Kaynak ve Teknoloji Ekosistemi Haritası\n\n")
+		sb.WriteString("**Türkiye'nin Açık Kaynak ve Teknoloji Ekosistemi Haritası**\n\n")
 		sb.WriteString("Türkiye'den çıkan açık kaynak projeler, teknoloji toplulukları ve dijital yaşam rehberleri için topluluk odaklı veritabanı.\n\n")
 	}
 
-	// Rozetler (Badges)
-	sb.WriteString("![Validator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg) ")
-	sb.WriteString("![Generator Status](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg) ")
-	sb.WriteString("![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)\n\n")
+	// Rozetler (Yan yana, düzenli)
+	sb.WriteString("[![Validator](https://github.com/ersozberk/awesome-turkiye/actions/workflows/validate.yml/badge.svg)](https://github.com/ersozberk/awesome-turkiye/actions) ")
+	sb.WriteString("[![Generator](https://github.com/ersozberk/awesome-turkiye/actions/workflows/generate-readme.yml/badge.svg)](https://github.com/ersozberk/awesome-turkiye/actions) ")
+	sb.WriteString("[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)\n\n")
 
-	// Hızlı Linkler
 	if lang == "en" {
-		sb.WriteString("🌐 **[Explore the Live Website](https://awesome-turkiye.vercel.app)** • 🤝 **[How to Contribute](CONTRIBUTING.md)** • 🇹🇷 **[Türkçe](README.tr.md)**\n\n")
+		sb.WriteString("🌐 **[Live Engine](https://awesome-turkiye.vercel.app)** &nbsp;•&nbsp; 🤝 **[Contribute](CONTRIBUTING.md)** &nbsp;•&nbsp; 🇹🇷 **[Türkçe](README.tr.md)**\n\n")
 	} else {
-		sb.WriteString("🌐 **[Canlı Web Sitesini Keşfet](https://awesome-turkiye.vercel.app)** • 🤝 **[Nasıl Katkıda Bulunurum?](CONTRIBUTING.md)** • 🇬🇧 **[English](README.md)**\n\n")
+		sb.WriteString("🌐 **[Canlı Keşif Motoru](https://awesome-turkiye.vercel.app)** &nbsp;•&nbsp; 🤝 **[Katkıda Bulun](CONTRIBUTING.md)** &nbsp;•&nbsp; 🇬🇧 **[English](README.md)**\n\n")
 	}
 	sb.WriteString("</div>\n\n---\n\n")
 
 	// ==========================================
-	// 2. İÇİNDEKİLER TABLOSU (TABLE OF CONTENTS)
+	// 2. MİMARİ ÖZETİ (ARCHITECTURE OVERVIEW)
+	// ==========================================
+	if lang == "en" {
+		sb.WriteString("## ⚙️ Architecture\n")
+		sb.WriteString("This is not just a static list. It's a self-maintaining ecosystem:\n")
+		sb.WriteString("- **Data Layer:** Centralized `data.json` acts as the single source of truth.\n")
+		sb.WriteString("- **CI/CD Pipeline:** Custom **Go** scripts automatically validate broken links and generate bilingual READMEs via GitHub Actions.\n")
+		sb.WriteString("- **Discovery Engine:** A lightning-fast **Next.js** web interface built for exploration.\n\n")
+	} else {
+		sb.WriteString("## ⚙️ Mimari Altyapı\n")
+		sb.WriteString("Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:\n")
+		sb.WriteString("- **Veri Katmanı:** Tüm içerik merkezi bir `data.json` dosyasından yönetilir.\n")
+		sb.WriteString("- **CI/CD Boru Hattı:** Özel yazılmış **Go** botları, kırık linkleri tespit eder ve GitHub Actions üzerinden iki dilde README üretir.\n")
+		sb.WriteString("- **Keşif Motoru:** Keşfedilebilirlik için optimize edilmiş, ışık hızında bir **Next.js** web arayüzü.\n\n")
+	}
+
+	// ==========================================
+	// 3. İÇİNDEKİLER TABLOSU
 	// ==========================================
 	if lang == "en" {
 		sb.WriteString("## 📋 Table of Contents\n\n")
@@ -96,79 +110,84 @@ func generateMarkdown(data Data, lang string) string {
 	}
 
 	for _, cat := range data.Categories {
-		// DÜZELTİLEN KISIM: Harita (Map) erişimi
 		title := cat.Title["en"]
 		if lang == "tr" {
 			title = cat.Title["tr"]
 		}
-		// Tıklanabilir içindekiler linkleri
 		sb.WriteString(fmt.Sprintf("- [%s](#%s)\n", title, cat.ID))
 	}
 	sb.WriteString("\n---\n\n")
 
 	// ==========================================
-	// 3. KATEGORİLER VE PROJELER
+	// 4. KATEGORİLER VE PROJELER (TABLO GÖRÜNÜMÜ)
 	// ==========================================
 	for _, cat := range data.Categories {
-		// DÜZELTİLEN KISIM: Harita (Map) erişimi
 		title := cat.Title["en"]
 		if lang == "tr" {
 			title = cat.Title["tr"]
 		}
 
-		// Kategori Başlığı (HTML anchor ile linklemeyi garantiye alıyoruz)
 		sb.WriteString(fmt.Sprintf("## <a name=\"%s\"></a>%s\n\n", cat.ID, title))
 
 		if len(cat.Projects) == 0 {
 			if lang == "en" {
-				sb.WriteString("*No projects in this category yet. Be the first to [add one](../CONTRIBUTING.md)!*\n\n")
+				sb.WriteString("> *No projects here yet. Be the first to [submit a PR](../CONTRIBUTING.md)!*\n\n")
 			} else {
-				sb.WriteString("*Bu kategoride henüz proje yok. İlk ekleyen sen ol: [PR Gönder](../CONTRIBUTING.md)!*\n\n")
+				sb.WriteString("> *Bu kategoride henüz veri yok. İlk ekleyen olmak için [PR Gönder](../CONTRIBUTING.md)!*\n\n")
 			}
 			continue
 		}
 
+		// TABLO BAŞLIKLARI
+		if lang == "en" {
+			sb.WriteString("| 🚀 Project | 📝 Description | 🏷️ Tags |\n")
+		} else {
+			sb.WriteString("| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |\n")
+		}
+		sb.WriteString("| :--- | :--- | :--- |\n")
+
+		// TABLO İÇERİĞİ
 		for _, proj := range cat.Projects {
-			// DÜZELTİLEN KISIM: Harita (Map) erişimi
 			desc := proj.Description["en"]
 			if lang == "tr" {
 				desc = proj.Description["tr"]
 			}
 
-			// Proje satırı (Bold isim, link ve italik açıklama)
-			sb.WriteString(fmt.Sprintf("- **[%s](%s)** - *%s*\n", proj.Name, proj.RepoURL, desc))
+			// Etiketleri yan yana kod bloğu formatında birleştir (Örn: `react`, `go`)
+			tagsFormatted := ""
+			if len(proj.Tags) > 0 {
+				tagsFormatted = "`" + strings.Join(proj.Tags, "`, `") + "`"
+			}
+
+			sb.WriteString(fmt.Sprintf("| **[%s](%s)** | %s | %s |\n", proj.Name, proj.RepoURL, desc, tagsFormatted))
 		}
 
-		// UX Dokunuşu: Her kategori sonuna "Başa Dön" linki
 		if lang == "en" {
-			sb.WriteString("\n[⬆️ Back to Top](#-table-of-contents)\n\n")
+			sb.WriteString("\n<div align=\"right\"><a href=\"#-table-of-contents\">⬆️ Back to Top</a></div>\n\n")
 		} else {
-			sb.WriteString("\n[⬆️ Başa Dön](#-içindekiler)\n\n")
+			sb.WriteString("\n<div align=\"right\"><a href=\"#-içindekiler\">⬆️ Başa Dön</a></div>\n\n")
 		}
 	}
 
 	// ==========================================
-	// 4. GAMIFICATION (CONTRIBUTORS) & FOOTER
+	// 5. CONTRIBUTORS & FOOTER
 	// ==========================================
 	sb.WriteString("---\n\n")
 	if lang == "en" {
-		sb.WriteString("<div align=\"center\">\n\n")
 		sb.WriteString("## 💖 Contributors\n\n")
-		sb.WriteString("Thanks to everyone who has contributed! Submit a PR to join the hall of fame.\n\n")
 	} else {
-		sb.WriteString("<div align=\"center\">\n\n")
 		sb.WriteString("## 💖 Katkıda Bulunanlar\n\n")
-		sb.WriteString("Bu projeyi büyüten herkese teşekkürler! Yüzünüzü burada görmek için bir PR gönderin.\n\n")
 	}
 
-	sb.WriteString("[![Contributors](https://contrib.rocks/image?repo=ersozberk/awesome-turkiye)](https://github.com/ersozberk/awesome-turkiye/graphs/contributors)\n\n")
+	sb.WriteString("<a href=\"https://github.com/ersozberk/awesome-turkiye/graphs/contributors\">\n")
+	sb.WriteString("  <img src=\"https://contrib.rocks/image?repo=ersozberk/awesome-turkiye\" alt=\"Contributors\" />\n")
+	sb.WriteString("</a>\n\n")
 
 	if lang == "en" {
-		sb.WriteString("<br/><p>Built with ❤️ using Go and GitHub Actions. MIT License.</p>\n")
+		sb.WriteString("> Built with using Go and Next.js. Distributed under the MIT License.\n")
 	} else {
-		sb.WriteString("<br/><p>Go ve GitHub Actions kullanılarak ❤️ ile geliştirildi. MIT Lisansı.</p>\n")
+		sb.WriteString("> Go ve Next.js mimarisiyle geliştirildi. MIT Lisansı ile dağıtılmaktadır.\n")
 	}
-	sb.WriteString("</div>\n")
 
 	return sb.String()
 }
