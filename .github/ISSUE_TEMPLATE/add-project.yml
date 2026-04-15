@@ -7,13 +7,13 @@ body:
     id: project_name
     attributes:
       label: Proje Adı
-      placeholder: Örn: Nolymarket
+      placeholder: "Örn: Nolymarket"
     validations:
       required: true
   - type: input
     id: repo_url
     attributes:
       label: Repository URL
-      placeholder: https://github.com/
+      placeholder: "https://github.com/"
     validations:
       required: true
