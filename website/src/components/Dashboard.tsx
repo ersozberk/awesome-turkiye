@@ -24,10 +24,12 @@ export default function Dashboard({ initialData }: { initialData: any }) {
   return (
     <div className="max-w-5xl mx-auto space-y-8">
       
+     
       {/* Arama ve Filtreleme Çubuğu */}
       <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700 shadow-xl flex flex-col md:flex-row gap-4">
         <input
           type="text"
+          aria-label="Proje veya teknoloji ara"
           placeholder="Proje veya teknoloji ara... (Örn: nextjs)"
           className="flex-1 bg-gray-900 text-white px-4 py-3 rounded-xl border border-gray-600 focus:outline-none focus:border-red-500 transition"
           value={searchTerm}
@@ -35,6 +37,7 @@ export default function Dashboard({ initialData }: { initialData: any }) {
         />
         
         <select 
+          aria-label="Kategori seçin"
           className="bg-gray-900 text-white px-4 py-3 rounded-xl border border-gray-600 focus:outline-none focus:border-red-500"
           value={activeCategory}
           onChange={(e) => setActiveCategory(e.target.value)}

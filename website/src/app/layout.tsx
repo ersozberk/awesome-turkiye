@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' });
  * @see https://nextjs.org/docs/app/building-your-application/optimizing/metadata
  */
 export const metadata: Metadata = {
+  metadataBase: new URL('https://awesome-turkiye.vercel.app'),
   title: {
     default: 'Awesome Türkiye 🇹🇷 | Açık Kaynak Ekosistemi',
     template: '%s | Awesome Türkiye', // Alt sayfalarda otomatik başlık formatı
