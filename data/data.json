@@ -1,27 +1,177 @@
 {
-  "last_updated": "2026-04-14T00:00:00Z",
+  "last_updated": "2026-04-15",
   "categories": [
     {
-      "id": "open-source-tech",
-      "title": { "en": "Software & Open Source", "tr": "Yazılım ve Açık Kaynak" },
+      "id": "frontend-and-ui",
+      "title": { "en": "Frontend & UI Libraries", "tr": "Frontend ve UI Kütüphaneleri" },
       "projects": [
         {
-          "name": "Nolymarket",
-          "repo_url": "https://github.com/ersozberk/ai-petition-assistant",
-          "description": { "en": "Real-time prediction market platform.", "tr": "Gerçek zamanlı tahmin pazarı platformu." },
-          "tags": ["nextjs", "supabase", "go"]
+          "name": "Baklava UI",
+          "repo_url": "https://github.com/Trendyol/baklava",
+          "description": { "en": "Web component-based UI library and design system by Trendyol.", "tr": "Trendyol tarafından geliştirilen, Web Component tabanlı UI kütüphanesi ve tasarım sistemi." },
+          "tags": ["web-components", "design-system", "react", "vue"]
         }
       ]
     },
     {
-      "id": "living-culture",
-      "title": { "en": "Living & Culture", "tr": "Yaşam ve Kültür" },
+      "id": "backend-and-devops",
+      "title": { "en": "Backend, Systems & DevOps", "tr": "Backend, Sistem ve DevOps" },
+      "projects": [
+        {
+          "name": "fatih/color",
+          "repo_url": "https://github.com/fatih/color",
+          "description": { "en": "Color print formatting for Go variables and console output.", "tr": "Go dilinde terminal çıktılarını renklendirmek için global standart kütüphane." },
+          "tags": ["go", "golang", "terminal", "cli"]
+        },
+        {
+          "name": "Iyzipay Node.js",
+          "repo_url": "https://github.com/iyzico/iyzipay-node",
+          "description": { "en": "Iyzico payment gateway API client for Node.js.", "tr": "Node.js için resmi Iyzico ödeme altyapısı entegrasyonu." },
+          "tags": ["fintech", "payment", "nodejs", "sdk"]
+        }
+      ]
+    },
+    {
+      "id": "ai-and-data",
+      "title": { "en": "AI, ML & Data Science", "tr": "Yapay Zeka ve Veri Bilimi" },
+      "projects": [
+        {
+          "name": "Trendyol LLM",
+          "repo_url": "https://huggingface.co/Trendyol",
+          "description": { "en": "Open-source Large Language Models specifically trained for Turkish NLP.", "tr": "Türkçe doğal dil işleme için özel olarak eğitilmiş açık kaynaklı Büyük Dil Modelleri." },
+          "tags": ["ai", "llm", "nlp", "machine-learning"]
+        }
+      ]
+    },
+    {
+      "id": "mobile-and-game",
+      "title": { "en": "Mobile & Game Development", "tr": "Mobil ve Oyun Geliştirme" },
+      "projects": [
+        {
+          "name": "Gamegine",
+          "repo_url": "https://github.com/gamegine",
+          "description": { "en": "Open-source game development tools, educational tech and cross-platform utilities.", "tr": "Açık kaynak oyun geliştirme araçları, eğitim teknolojileri ve çapraz platform bileşenleri." },
+          "tags": ["game-dev", "unreal-engine", "educational"]
+        }
+      ]
+    },
+    {
+      "id": "tech-for-good",
+      "title": { "en": "Tech for Good & Disaster Relief", "tr": "Sosyal Etki ve Afet Teknolojileri" },
+      "projects": [
+        {
+          "name": "Açık Yazılım Ağı (Afet.org)",
+          "repo_url": "https://github.com/acikkaynak/deprem-io",
+          "description": { "en": "Open source disaster relief coordination and communication platform.", "tr": "Açık kaynak afet iletişim ve koordinasyon platformu (deprem.io)." },
+          "tags": ["social-good", "react", "disaster-relief", "nextjs"]
+        }
+      ]
+    },
+    {
+      "id": "communities-and-events",
+      "title": { "en": "Communities & Developer Groups", "tr": "Topluluklar ve Geliştirici Grupları" },
+      "projects": [
+        {
+          "name": "Devnot",
+          "repo_url": "https://github.com/devnotcom",
+          "description": { "en": "Turkish software developer community, articles, and event resources.", "tr": "Yazılımcılar için Türkçe makale, etkinlik ve topluluk kaynakları platformu." },
+          "tags": ["community", "articles", "education"]
+        }
+      ]
+    },
+    {
+      "id": "content-and-podcasts",
+      "title": { "en": "Content, Blogs & Podcasts", "tr": "İçerik, Blog ve Podcastler" },
+      "projects": [
+        {
+          "name": "Codefiction",
+          "repo_url": "https://github.com/codefiction",
+          "description": { "en": "One of the most popular software and technology podcasts in Turkey.", "tr": "Türkiye'nin en popüler yazılım, teknoloji ve mühendislik podcast topluluklarından biri." },
+          "tags": ["podcast", "engineering", "community"]
+        }
+      ]
+    },
+    {
+      "id": "indie-makers-saas",
+      "title": { "en": "Indie Makers & Micro-SaaS", "tr": "Bağımsız Ürünler ve Micro-SaaS" },
+      "projects": [
+        {
+          "name": "Noly Market",
+          "repo_url": "https://github.com/ersozberk/nolymarket",
+          "description": { "en": "Next-generation prediction market and digital asset platform.", "tr": "Yeni nesil tahmin pazarı ve dijital varlık platformu." },
+          "tags": ["fintech", "nextjs", "prediction-market", "indie-saas"]
+        }
+      ]
+    },
+    {
+      "id": "web3-and-blockchain",
+      "title": { "en": "Web3 & Decentralized Systems", "tr": "Web3 ve Merkeziyetsiz Sistemler" },
+      "projects": [
+        {
+          "name": "AvalancheGo (Ava Labs)",
+          "repo_url": "https://github.com/ava-labs/avalanchego",
+          "description": { "en": "Official Go implementation of the Avalanche network (led by Emin Gün Sirer).", "tr": "Emin Gün Sirer liderliğindeki Avalanche ağının resmi Go implementasyonu." },
+          "tags": ["blockchain", "web3", "golang", "crypto"]
+        }
+      ]
+    },
+    {
+      "id": "expat-and-nomad-guide",
+      "title": { "en": "Expat & Digital Nomad Guide", "tr": "Expat ve Dijital Göçebe Rehberi" },
       "projects": [
         {
           "name": "Digital Nomad Guide: Izmir",
-          "repo_url": "https://izmir.goturkiye.com/",
-          "description": { "en": "A comprehensive guide for developers living in Izmir.", "tr": "İzmir'de yaşayan geliştiriciler için kapsamlı rehber." },
-          "tags": ["lifestyle", "nomad", "izmir"]
+          "repo_url": "https://github.com/awesome-turkiye/guides",
+          "description": { "en": "Comprehensive guide for remote workers settling in Izmir (Göztepe, Urla).", "tr": "İzmir'e (Göztepe, Urla vb.) yerleşecek uzaktan çalışanlar için kapsamlı rehber." },
+          "tags": ["nomad", "izmir", "remote-work", "living"]
+        }
+      ]
+    },
+    {
+      "id": "daily-survival-apps",
+      "title": { "en": "Daily Survival & Local Apps", "tr": "Günlük Yaşam ve Yerel Uygulamalar" },
+      "projects": [
+        {
+          "name": "Turkey Survival Kit",
+          "repo_url": "https://github.com/awesome-turkiye/apps",
+          "description": { "en": "List of essential apps for Turkey (Yemeksepeti, Getir, Moovit, BiTaksi).", "tr": "Türkiye'de hayat kurtaran uygulamalar listesi (Yemeksepeti, Getir, Moovit vb.)." },
+          "tags": ["apps", "survival", "transportation", "food"]
+        }
+      ]
+    },
+    {
+      "id": "travel-and-tourism",
+      "title": { "en": "Travel & Tourism", "tr": "Gezi ve Turizm Rehberi" },
+      "projects": [
+        {
+          "name": "Museum Pass Turkey Guide",
+          "repo_url": "https://github.com/awesome-turkiye/tourism",
+          "description": { "en": "How to get and use the Museum Pass for visiting historical sites like Ephesus and Cappadocia.", "tr": "Efes ve Kapadokya gibi tarihi alanları gezmek için Müze Kart alma ve kullanma rehberi." },
+          "tags": ["tourism", "history", "travel", "museums"]
+        }
+      ]
+    },
+    {
+      "id": "culture-and-food",
+      "title": { "en": "Culture & Gastronomy", "tr": "Kültür ve Gastronomi" },
+      "projects": [
+        {
+          "name": "Turkish Coffee & Food Dictionary",
+          "repo_url": "https://github.com/awesome-turkiye/culture",
+          "description": { "en": "Open-source dictionary for Turkish street food, coffee culture, and dining etiquette.", "tr": "Türk sokak lezzetleri, kahve kültürü ve yemek adabı için açık kaynak sözlük." },
+          "tags": ["food", "culture", "coffee", "gastronomy"]
+        }
+      ]
+    },
+    {
+      "id": "career-and-remote-life",
+      "title": { "en": "Career & Remote Life", "tr": "Kariyer ve Uzaktan Çalışma" },
+      "projects": [
+        {
+          "name": "Tech Salary Reports TR",
+          "repo_url": "https://github.com/awesome-turkiye/career",
+          "description": { "en": "Open data and annual reports on software developer salaries in Turkey.", "tr": "Türkiye'deki yazılımcı maaşları üzerine açık veri ve yıllık raporlar." },
+          "tags": ["career", "salary", "remote-work", "data"]
         }
       ]
     }
