@@ -1,11 +1,8 @@
 name: Yeni Proje Ekle
 description: Awesome Türkiye listesine yeni bir proje önerin.
-title: "[Proje]: <Proje Adı>"
+title: "[Proje]: "
 labels: ["enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: "## 🇹🇷 Awesome Türkiye'ye Hoş Geldin!\nLütfen kurallara uyduğundan emin ol."
   - type: input
     id: project_name
     attributes:
@@ -17,6 +14,6 @@ body:
     id: repo_url
     attributes:
       label: Repository URL
-      placeholder: https://github.com/ersozberk/proje
+      placeholder: https://github.com/
     validations:
       required: true
