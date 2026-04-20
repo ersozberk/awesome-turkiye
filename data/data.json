@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15",
+  "last_updated": "2026-04-20",
   "categories": [
     {
       "id": "frontend-and-ui",
@@ -10,6 +10,30 @@
           "repo_url": "https://github.com/Trendyol/baklava",
           "description": { "en": "Web component-based UI library and design system by Trendyol.", "tr": "Trendyol tarafından geliştirilen, Web Component tabanlı UI kütüphanesi ve tasarım sistemi." },
           "tags": ["web-components", "design-system", "react", "vue"]
+        },
+        {
+          "name": "Noty",
+          "repo_url": "https://github.com/needim/noty",
+          "description": { "en": "Dependency-free JavaScript notification library for alerts, confirms and prompts.", "tr": "Bağımlılıksız, hafif ve özelleştirilebilir JavaScript bildirim (notification) kütüphanesi." },
+          "tags": ["javascript", "notifications", "ui", "frontend"]
+        },
+        {
+          "name": "DeLorean.js",
+          "repo_url": "https://github.com/f/delorean",
+          "description": { "en": "Tiny, framework-agnostic Flux architecture implementation for JavaScript.", "tr": "JavaScript için framework-bağımsız, hafif bir Flux mimari desen uygulaması." },
+          "tags": ["javascript", "flux", "state-management", "frontend"]
+        },
+        {
+          "name": "postcss-inline-image",
+          "repo_url": "https://github.com/f/postcss-inline-image",
+          "description": { "en": "PostCSS plugin that converts CSS image references into base64-encoded data URIs.", "tr": "CSS içindeki görsel referanslarını base64 data URI'lara dönüştüren PostCSS eklentisi." },
+          "tags": ["postcss", "css", "build-tool", "frontend"]
+        },
+        {
+          "name": "Laroux",
+          "repo_url": "https://github.com/eser/laroux",
+          "description": { "en": "Modern React Server Components framework for Deno with TypeScript and native ESM.", "tr": "Deno üzerinde çalışan, TypeScript ve ESM destekli modern React Server Components framework'ü." },
+          "tags": ["react", "deno", "rsc", "typescript"]
         }
       ]
     },
@@ -28,6 +52,24 @@
           "repo_url": "https://github.com/iyzico/iyzipay-node",
           "description": { "en": "Iyzico payment gateway API client for Node.js.", "tr": "Node.js için resmi Iyzico ödeme altyapısı entegrasyonu." },
           "tags": ["fintech", "payment", "nodejs", "sdk"]
+        },
+        {
+          "name": "Pyresto",
+          "repo_url": "https://github.com/BYK/pyresto",
+          "description": { "en": "Generic Python ORM framework for consuming RESTful APIs as Python objects.", "tr": "RESTful API'leri Python nesneleri gibi kullanmayı sağlayan genel amaçlı Python ORM framework'ü." },
+          "tags": ["python", "orm", "rest", "api"]
+        },
+        {
+          "name": "Turkish APIs",
+          "repo_url": "https://github.com/3rt4nm4n/turkish-apis",
+          "description": { "en": "Curated bilingual (EN/TR) list of APIs developed by or based in Turkey.", "tr": "Türkiye merkezli veya Türkiye'ye ait API'lerin iki dilli (TR/EN) derlenmiş listesi." },
+          "tags": ["api", "awesome-list", "resources", "public-api"]
+        },
+        {
+          "name": "Slack Manager",
+          "repo_url": "https://github.com/anonrig/slack-manager",
+          "description": { "en": "Slack bot for running asynchronous daily standup meetings inside Slack channels.", "tr": "Slack kanalları üzerinden asenkron günlük standup toplantıları yürüten Slack botu." },
+          "tags": ["slack", "bot", "standup", "nodejs"]
         }
       ]
     },
@@ -40,6 +82,12 @@
           "repo_url": "https://huggingface.co/Trendyol",
           "description": { "en": "Open-source Large Language Models specifically trained for Turkish NLP.", "tr": "Türkçe doğal dil işleme için özel olarak eğitilmiş açık kaynaklı Büyük Dil Modelleri." },
           "tags": ["ai", "llm", "nlp", "machine-learning"]
+        },
+        {
+          "name": "Zemberek-NLP",
+          "repo_url": "https://github.com/ahmetaa/zemberek-nlp",
+          "description": { "en": "Comprehensive Natural Language Processing toolkit and libraries for the Turkish language.", "tr": "Türkçe için kapsamlı doğal dil işleme araçları ve kütüphaneleri içeren açık kaynak kitaplığı." },
+          "tags": ["nlp", "turkish", "java", "language-processing"]
         }
       ]
     },
