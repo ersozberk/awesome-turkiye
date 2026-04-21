@@ -44,6 +44,10 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 | 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
 | :--- | :--- | :--- |
 | **[Baklava UI](https://github.com/Trendyol/baklava)** | Trendyol tarafından geliştirilen, Web Component tabanlı UI kütüphanesi ve tasarım sistemi. | `web-components`, `design-system`, `react`, `vue` |
+| **[Noty](https://github.com/needim/noty)** | Bağımlılıksız, hafif ve özelleştirilebilir JavaScript bildirim (notification) kütüphanesi. | `javascript`, `notifications`, `ui`, `frontend` |
+| **[DeLorean.js](https://github.com/f/delorean)** | JavaScript için framework-bağımsız, hafif bir Flux mimari desen uygulaması. | `javascript`, `flux`, `state-management`, `frontend` |
+| **[postcss-inline-image](https://github.com/f/postcss-inline-image)** | CSS içindeki görsel referanslarını base64 data URI'lara dönüştüren PostCSS eklentisi. | `postcss`, `css`, `build-tool`, `frontend` |
+| **[Laroux](https://github.com/eser/laroux)** | Deno üzerinde çalışan, TypeScript ve ESM destekli modern React Server Components framework'ü. | `react`, `deno`, `rsc`, `typescript` |
 
 <div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
@@ -53,6 +57,9 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 | :--- | :--- | :--- |
 | **[fatih/color](https://github.com/fatih/color)** | Go dilinde terminal çıktılarını renklendirmek için global standart kütüphane. | `go`, `golang`, `terminal`, `cli` |
 | **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Node.js için resmi Iyzico ödeme altyapısı entegrasyonu. | `fintech`, `payment`, `nodejs`, `sdk` |
+| **[Pyresto](https://github.com/BYK/pyresto)** | RESTful API'leri Python nesneleri gibi kullanmayı sağlayan genel amaçlı Python ORM framework'ü. | `python`, `orm`, `rest`, `api` |
+| **[Turkish APIs](https://github.com/3rt4nm4n/turkish-apis)** | Türkiye merkezli veya Türkiye'ye ait API'lerin iki dilli (TR/EN) derlenmiş listesi. | `api`, `awesome-list`, `resources`, `public-api` |
+| **[Slack Manager](https://github.com/anonrig/slack-manager)** | Slack kanalları üzerinden asenkron günlük standup toplantıları yürüten Slack botu. | `slack`, `bot`, `standup`, `nodejs` |
 
 <div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
@@ -61,6 +68,7 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 | 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
 | :--- | :--- | :--- |
 | **[Trendyol LLM](https://huggingface.co/Trendyol)** | Türkçe doğal dil işleme için özel olarak eğitilmiş açık kaynaklı Büyük Dil Modelleri. | `ai`, `llm`, `nlp`, `machine-learning` |
+| **[Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp)** | Türkçe için kapsamlı doğal dil işleme araçları ve kütüphaneleri içeren açık kaynak kitaplığı. | `nlp`, `turkish`, `java`, `language-processing` |
 
 <div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 

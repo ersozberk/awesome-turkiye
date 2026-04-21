@@ -44,6 +44,10 @@ This is not just a static list. It's a self-maintaining ecosystem:
 | 🚀 Project | 📝 Description | 🏷️ Tags |
 | :--- | :--- | :--- |
 | **[Baklava UI](https://github.com/Trendyol/baklava)** | Web component-based UI library and design system by Trendyol. | `web-components`, `design-system`, `react`, `vue` |
+| **[Noty](https://github.com/needim/noty)** | Dependency-free JavaScript notification library for alerts, confirms and prompts. | `javascript`, `notifications`, `ui`, `frontend` |
+| **[DeLorean.js](https://github.com/f/delorean)** | Tiny, framework-agnostic Flux architecture implementation for JavaScript. | `javascript`, `flux`, `state-management`, `frontend` |
+| **[postcss-inline-image](https://github.com/f/postcss-inline-image)** | PostCSS plugin that converts CSS image references into base64-encoded data URIs. | `postcss`, `css`, `build-tool`, `frontend` |
+| **[Laroux](https://github.com/eser/laroux)** | Modern React Server Components framework for Deno with TypeScript and native ESM. | `react`, `deno`, `rsc`, `typescript` |
 
 <div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
 
@@ -53,6 +57,9 @@ This is not just a static list. It's a self-maintaining ecosystem:
 | :--- | :--- | :--- |
 | **[fatih/color](https://github.com/fatih/color)** | Color print formatting for Go variables and console output. | `go`, `golang`, `terminal`, `cli` |
 | **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Iyzico payment gateway API client for Node.js. | `fintech`, `payment`, `nodejs`, `sdk` |
+| **[Pyresto](https://github.com/BYK/pyresto)** | Generic Python ORM framework for consuming RESTful APIs as Python objects. | `python`, `orm`, `rest`, `api` |
+| **[Turkish APIs](https://github.com/3rt4nm4n/turkish-apis)** | Curated bilingual (EN/TR) list of APIs developed by or based in Turkey. | `api`, `awesome-list`, `resources`, `public-api` |
+| **[Slack Manager](https://github.com/anonrig/slack-manager)** | Slack bot for running asynchronous daily standup meetings inside Slack channels. | `slack`, `bot`, `standup`, `nodejs` |
 
 <div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
 
@@ -61,6 +68,7 @@ This is not just a static list. It's a self-maintaining ecosystem:
 | 🚀 Project | 📝 Description | 🏷️ Tags |
 | :--- | :--- | :--- |
 | **[Trendyol LLM](https://huggingface.co/Trendyol)** | Open-source Large Language Models specifically trained for Turkish NLP. | `ai`, `llm`, `nlp`, `machine-learning` |
+| **[Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp)** | Comprehensive Natural Language Processing toolkit and libraries for the Turkish language. | `nlp`, `turkish`, `java`, `language-processing` |
 
 <div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
 
