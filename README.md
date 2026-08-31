@@ -58,6 +58,8 @@ This is not just a static list. It's a self-maintaining ecosystem:
 | **[fatih/color](https://github.com/fatih/color)** | Color print formatting for Go variables and console output. | `go`, `golang`, `terminal`, `cli` |
 | **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Iyzico payment gateway API client for Node.js. | `fintech`, `payment`, `nodejs`, `sdk` |
 | **[Pyresto](https://github.com/BYK/pyresto)** | Generic Python ORM framework for consuming RESTful APIs as Python objects. | `python`, `orm`, `rest`, `api` |
+| **[Kemal](https://github.com/kemalcr/kemal)** | Fast, effective, and simple web framework for Crystal. | `crystal`, `web-framework`, `backend`, `websocket` |
+| **[SiyoCompiler](https://github.com/urunsiyabend/SiyoCompiler)** | Compiler for a JVM-targeting language with actors, channels, and native Java interoperability. | `compiler`, `jvm`, `programming-language`, `java` |
 | **[Turkish APIs](https://github.com/3rt4nm4n/turkish-apis)** | Curated bilingual (EN/TR) list of APIs developed by or based in Turkey. | `api`, `awesome-list`, `resources`, `public-api` |
 | **[Slack Manager](https://github.com/anonrig/slack-manager)** | Slack bot for running asynchronous daily standup meetings inside Slack channels. | `slack`, `bot`, `standup`, `nodejs` |
 
@@ -108,7 +110,7 @@ This is not just a static list. It's a self-maintaining ecosystem:
 
 | 🚀 Project | 📝 Description | 🏷️ Tags |
 | :--- | :--- | :--- |
-| **[Noly Market](https://github.com/ersozberk/nolymarket)** | Next-generation prediction market and digital asset platform. | `fintech`, `nextjs`, `prediction-market`, `indie-saas` |
+| **[Noly Market](https://github.com/ersozberk/noly-market)** | Next-generation prediction market and digital asset platform. | `fintech`, `nextjs`, `prediction-market`, `indie-saas` |
 
 <div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
 
@@ -122,43 +124,23 @@ This is not just a static list. It's a self-maintaining ecosystem:
 
 ## <a name="expat-and-nomad-guide"></a>Expat & Digital Nomad Guide
 
-| 🚀 Project | 📝 Description | 🏷️ Tags |
-| :--- | :--- | :--- |
-| **[Digital Nomad Guide: Izmir](https://github.com/awesome-turkiye/guides)** | Comprehensive guide for remote workers settling in Izmir (Göztepe, Urla). | `nomad`, `izmir`, `remote-work`, `living` |
-
-<div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
+> *No projects here yet. Be the first to [submit a PR](../CONTRIBUTING.md)!*
 
 ## <a name="daily-survival-apps"></a>Daily Survival & Local Apps
 
-| 🚀 Project | 📝 Description | 🏷️ Tags |
-| :--- | :--- | :--- |
-| **[Turkey Survival Kit](https://github.com/awesome-turkiye/apps)** | List of essential apps for Turkey (Yemeksepeti, Getir, Moovit, BiTaksi). | `apps`, `survival`, `transportation`, `food` |
-
-<div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
+> *No projects here yet. Be the first to [submit a PR](../CONTRIBUTING.md)!*
 
 ## <a name="travel-and-tourism"></a>Travel & Tourism
 
-| 🚀 Project | 📝 Description | 🏷️ Tags |
-| :--- | :--- | :--- |
-| **[Museum Pass Turkey Guide](https://github.com/awesome-turkiye/tourism)** | How to get and use the Museum Pass for visiting historical sites like Ephesus and Cappadocia. | `tourism`, `history`, `travel`, `museums` |
-
-<div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
+> *No projects here yet. Be the first to [submit a PR](../CONTRIBUTING.md)!*
 
 ## <a name="culture-and-food"></a>Culture & Gastronomy
 
-| 🚀 Project | 📝 Description | 🏷️ Tags |
-| :--- | :--- | :--- |
-| **[Turkish Coffee & Food Dictionary](https://github.com/awesome-turkiye/culture)** | Open-source dictionary for Turkish street food, coffee culture, and dining etiquette. | `food`, `culture`, `coffee`, `gastronomy` |
-
-<div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
+> *No projects here yet. Be the first to [submit a PR](../CONTRIBUTING.md)!*
 
 ## <a name="career-and-remote-life"></a>Career & Remote Life
 
-| 🚀 Project | 📝 Description | 🏷️ Tags |
-| :--- | :--- | :--- |
-| **[Tech Salary Reports TR](https://github.com/awesome-turkiye/career)** | Open data and annual reports on software developer salaries in Turkey. | `career`, `salary`, `remote-work`, `data` |
-
-<div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
+> *No projects here yet. Be the first to [submit a PR](../CONTRIBUTING.md)!*
 
 ---
 

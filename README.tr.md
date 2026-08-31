@@ -58,6 +58,8 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 | **[fatih/color](https://github.com/fatih/color)** | Go dilinde terminal çıktılarını renklendirmek için global standart kütüphane. | `go`, `golang`, `terminal`, `cli` |
 | **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Node.js için resmi Iyzico ödeme altyapısı entegrasyonu. | `fintech`, `payment`, `nodejs`, `sdk` |
 | **[Pyresto](https://github.com/BYK/pyresto)** | RESTful API'leri Python nesneleri gibi kullanmayı sağlayan genel amaçlı Python ORM framework'ü. | `python`, `orm`, `rest`, `api` |
+| **[Kemal](https://github.com/kemalcr/kemal)** | Crystal için hızlı, etkili ve basit bir web framework'ü. | `crystal`, `web-framework`, `backend`, `websocket` |
+| **[SiyoCompiler](https://github.com/urunsiyabend/SiyoCompiler)** | Aktörler, kanallar ve yerel Java birlikte çalışabilirliği sunan JVM hedefli bir dil derleyicisi. | `compiler`, `jvm`, `programming-language`, `java` |
 | **[Turkish APIs](https://github.com/3rt4nm4n/turkish-apis)** | Türkiye merkezli veya Türkiye'ye ait API'lerin iki dilli (TR/EN) derlenmiş listesi. | `api`, `awesome-list`, `resources`, `public-api` |
 | **[Slack Manager](https://github.com/anonrig/slack-manager)** | Slack kanalları üzerinden asenkron günlük standup toplantıları yürüten Slack botu. | `slack`, `bot`, `standup`, `nodejs` |
 
@@ -108,7 +110,7 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 
 | 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
 | :--- | :--- | :--- |
-| **[Noly Market](https://github.com/ersozberk/nolymarket)** | Yeni nesil tahmin pazarı ve dijital varlık platformu. | `fintech`, `nextjs`, `prediction-market`, `indie-saas` |
+| **[Noly Market](https://github.com/ersozberk/noly-market)** | Yeni nesil tahmin pazarı ve dijital varlık platformu. | `fintech`, `nextjs`, `prediction-market`, `indie-saas` |
 
 <div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
@@ -122,43 +124,23 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 
 ## <a name="expat-and-nomad-guide"></a>Expat ve Dijital Göçebe Rehberi
 
-| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
-| :--- | :--- | :--- |
-| **[Digital Nomad Guide: Izmir](https://github.com/awesome-turkiye/guides)** | İzmir'e (Göztepe, Urla vb.) yerleşecek uzaktan çalışanlar için kapsamlı rehber. | `nomad`, `izmir`, `remote-work`, `living` |
-
-<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
+> *Bu kategoride henüz veri yok. İlk ekleyen olmak için [PR Gönder](../CONTRIBUTING.md)!*
 
 ## <a name="daily-survival-apps"></a>Günlük Yaşam ve Yerel Uygulamalar
 
-| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
-| :--- | :--- | :--- |
-| **[Turkey Survival Kit](https://github.com/awesome-turkiye/apps)** | Türkiye'de hayat kurtaran uygulamalar listesi (Yemeksepeti, Getir, Moovit vb.). | `apps`, `survival`, `transportation`, `food` |
-
-<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
+> *Bu kategoride henüz veri yok. İlk ekleyen olmak için [PR Gönder](../CONTRIBUTING.md)!*
 
 ## <a name="travel-and-tourism"></a>Gezi ve Turizm Rehberi
 
-| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
-| :--- | :--- | :--- |
-| **[Museum Pass Turkey Guide](https://github.com/awesome-turkiye/tourism)** | Efes ve Kapadokya gibi tarihi alanları gezmek için Müze Kart alma ve kullanma rehberi. | `tourism`, `history`, `travel`, `museums` |
-
-<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
+> *Bu kategoride henüz veri yok. İlk ekleyen olmak için [PR Gönder](../CONTRIBUTING.md)!*
 
 ## <a name="culture-and-food"></a>Kültür ve Gastronomi
 
-| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
-| :--- | :--- | :--- |
-| **[Turkish Coffee & Food Dictionary](https://github.com/awesome-turkiye/culture)** | Türk sokak lezzetleri, kahve kültürü ve yemek adabı için açık kaynak sözlük. | `food`, `culture`, `coffee`, `gastronomy` |
-
-<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
+> *Bu kategoride henüz veri yok. İlk ekleyen olmak için [PR Gönder](../CONTRIBUTING.md)!*
 
 ## <a name="career-and-remote-life"></a>Kariyer ve Uzaktan Çalışma
 
-| 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
-| :--- | :--- | :--- |
-| **[Tech Salary Reports TR](https://github.com/awesome-turkiye/career)** | Türkiye'deki yazılımcı maaşları üzerine açık veri ve yıllık raporlar. | `career`, `salary`, `remote-work`, `data` |
-
-<div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
+> *Bu kategoride henüz veri yok. İlk ekleyen olmak için [PR Gönder](../CONTRIBUTING.md)!*
 
 ---
 
