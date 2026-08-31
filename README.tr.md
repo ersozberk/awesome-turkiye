@@ -58,6 +58,7 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 | **[fatih/color](https://github.com/fatih/color)** | Go dilinde terminal çıktılarını renklendirmek için global standart kütüphane. | `go`, `golang`, `terminal`, `cli` |
 | **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Node.js için resmi Iyzico ödeme altyapısı entegrasyonu. | `fintech`, `payment`, `nodejs`, `sdk` |
 | **[Pyresto](https://github.com/BYK/pyresto)** | RESTful API'leri Python nesneleri gibi kullanmayı sağlayan genel amaçlı Python ORM framework'ü. | `python`, `orm`, `rest`, `api` |
+| **[Kemal](https://github.com/kemalcr/kemal)** | Crystal için hızlı, etkili ve basit bir web framework'ü. | `crystal`, `web-framework`, `backend`, `websocket` |
 | **[Turkish APIs](https://github.com/3rt4nm4n/turkish-apis)** | Türkiye merkezli veya Türkiye'ye ait API'lerin iki dilli (TR/EN) derlenmiş listesi. | `api`, `awesome-list`, `resources`, `public-api` |
 | **[Slack Manager](https://github.com/anonrig/slack-manager)** | Slack kanalları üzerinden asenkron günlük standup toplantıları yürüten Slack botu. | `slack`, `bot`, `standup`, `nodejs` |
 

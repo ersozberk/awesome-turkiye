@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-08-31",
   "categories": [
     {
       "id": "frontend-and-ui",
@@ -58,6 +58,12 @@
           "repo_url": "https://github.com/BYK/pyresto",
           "description": { "en": "Generic Python ORM framework for consuming RESTful APIs as Python objects.", "tr": "RESTful API'leri Python nesneleri gibi kullanmayı sağlayan genel amaçlı Python ORM framework'ü." },
           "tags": ["python", "orm", "rest", "api"]
+        },
+        {
+          "name": "Kemal",
+          "repo_url": "https://github.com/kemalcr/kemal",
+          "description": { "en": "Fast, effective, and simple web framework for Crystal.", "tr": "Crystal için hızlı, etkili ve basit bir web framework'ü." },
+          "tags": ["crystal", "web-framework", "backend", "websocket"]
         },
         {
           "name": "Turkish APIs",

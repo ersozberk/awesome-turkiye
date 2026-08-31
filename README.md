@@ -58,6 +58,7 @@ This is not just a static list. It's a self-maintaining ecosystem:
 | **[fatih/color](https://github.com/fatih/color)** | Color print formatting for Go variables and console output. | `go`, `golang`, `terminal`, `cli` |
 | **[Iyzipay Node.js](https://github.com/iyzico/iyzipay-node)** | Iyzico payment gateway API client for Node.js. | `fintech`, `payment`, `nodejs`, `sdk` |
 | **[Pyresto](https://github.com/BYK/pyresto)** | Generic Python ORM framework for consuming RESTful APIs as Python objects. | `python`, `orm`, `rest`, `api` |
+| **[Kemal](https://github.com/kemalcr/kemal)** | Fast, effective, and simple web framework for Crystal. | `crystal`, `web-framework`, `backend`, `websocket` |
 | **[Turkish APIs](https://github.com/3rt4nm4n/turkish-apis)** | Curated bilingual (EN/TR) list of APIs developed by or based in Turkey. | `api`, `awesome-list`, `resources`, `public-api` |
 | **[Slack Manager](https://github.com/anonrig/slack-manager)** | Slack bot for running asynchronous daily standup meetings inside Slack channels. | `slack`, `bot`, `standup`, `nodejs` |
 
