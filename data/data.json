@@ -66,6 +66,12 @@
           "tags": ["crystal", "web-framework", "backend", "websocket"]
         },
         {
+          "name": "SiyoCompiler",
+          "repo_url": "https://github.com/urunsiyabend/SiyoCompiler",
+          "description": { "en": "Compiler for a JVM-targeting language with actors, channels, and native Java interoperability.", "tr": "Aktörler, kanallar ve yerel Java birlikte çalışabilirliği sunan JVM hedefli bir dil derleyicisi." },
+          "tags": ["compiler", "jvm", "programming-language", "java"]
+        },
+        {
           "name": "Turkish APIs",
           "repo_url": "https://github.com/3rt4nm4n/turkish-apis",
           "description": { "en": "Curated bilingual (EN/TR) list of APIs developed by or based in Turkey.", "tr": "Türkiye merkezli veya Türkiye'ye ait API'lerin iki dilli (TR/EN) derlenmiş listesi." },
@@ -151,7 +157,7 @@
       "projects": [
         {
           "name": "Noly Market",
-          "repo_url": "https://github.com/ersozberk/nolymarket",
+          "repo_url": "https://github.com/ersozberk/noly-market",
           "description": { "en": "Next-generation prediction market and digital asset platform.", "tr": "Yeni nesil tahmin pazarı ve dijital varlık platformu." },
           "tags": ["fintech", "nextjs", "prediction-market", "indie-saas"]
         }
@@ -172,62 +178,27 @@
     {
       "id": "expat-and-nomad-guide",
       "title": { "en": "Expat & Digital Nomad Guide", "tr": "Expat ve Dijital Göçebe Rehberi" },
-      "projects": [
-        {
-          "name": "Digital Nomad Guide: Izmir",
-          "repo_url": "https://github.com/awesome-turkiye/guides",
-          "description": { "en": "Comprehensive guide for remote workers settling in Izmir (Göztepe, Urla).", "tr": "İzmir'e (Göztepe, Urla vb.) yerleşecek uzaktan çalışanlar için kapsamlı rehber." },
-          "tags": ["nomad", "izmir", "remote-work", "living"]
-        }
-      ]
+      "projects": []
     },
     {
       "id": "daily-survival-apps",
       "title": { "en": "Daily Survival & Local Apps", "tr": "Günlük Yaşam ve Yerel Uygulamalar" },
-      "projects": [
-        {
-          "name": "Turkey Survival Kit",
-          "repo_url": "https://github.com/awesome-turkiye/apps",
-          "description": { "en": "List of essential apps for Turkey (Yemeksepeti, Getir, Moovit, BiTaksi).", "tr": "Türkiye'de hayat kurtaran uygulamalar listesi (Yemeksepeti, Getir, Moovit vb.)." },
-          "tags": ["apps", "survival", "transportation", "food"]
-        }
-      ]
+      "projects": []
     },
     {
       "id": "travel-and-tourism",
       "title": { "en": "Travel & Tourism", "tr": "Gezi ve Turizm Rehberi" },
-      "projects": [
-        {
-          "name": "Museum Pass Turkey Guide",
-          "repo_url": "https://github.com/awesome-turkiye/tourism",
-          "description": { "en": "How to get and use the Museum Pass for visiting historical sites like Ephesus and Cappadocia.", "tr": "Efes ve Kapadokya gibi tarihi alanları gezmek için Müze Kart alma ve kullanma rehberi." },
-          "tags": ["tourism", "history", "travel", "museums"]
-        }
-      ]
+      "projects": []
     },
     {
       "id": "culture-and-food",
       "title": { "en": "Culture & Gastronomy", "tr": "Kültür ve Gastronomi" },
-      "projects": [
-        {
-          "name": "Turkish Coffee & Food Dictionary",
-          "repo_url": "https://github.com/awesome-turkiye/culture",
-          "description": { "en": "Open-source dictionary for Turkish street food, coffee culture, and dining etiquette.", "tr": "Türk sokak lezzetleri, kahve kültürü ve yemek adabı için açık kaynak sözlük." },
-          "tags": ["food", "culture", "coffee", "gastronomy"]
-        }
-      ]
+      "projects": []
     },
     {
       "id": "career-and-remote-life",
       "title": { "en": "Career & Remote Life", "tr": "Kariyer ve Uzaktan Çalışma" },
-      "projects": [
-        {
-          "name": "Tech Salary Reports TR",
-          "repo_url": "https://github.com/awesome-turkiye/career",
-          "description": { "en": "Open data and annual reports on software developer salaries in Turkey.", "tr": "Türkiye'deki yazılımcı maaşları üzerine açık veri ve yıllık raporlar." },
-          "tags": ["career", "salary", "remote-work", "data"]
-        }
-      ]
+      "projects": []
     }
   ]
 }
