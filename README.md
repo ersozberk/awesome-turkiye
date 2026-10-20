@@ -93,6 +93,7 @@ This is not just a static list. It's a self-maintaining ecosystem:
 | 🚀 Project | 📝 Description | 🏷️ Tags |
 | :--- | :--- | :--- |
 | **[Devnot](https://github.com/devnotcom)** | Turkish software developer community, articles, and event resources. | `community`, `articles`, `education` |
+| **[Linux Gündem Forum](https://forum.xn--linuxgndem-feb.com/)** | Independent Turkish GNU/Linux, system administration, and open-source software community discussion platform and guide hub. | `linux`, `community`, `open-source`, `sysadmin`, `devops` |
 
 <div align="right"><a href="#-table-of-contents">⬆️ Back to Top</a></div>
 

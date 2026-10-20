@@ -124,6 +124,12 @@
           "repo_url": "https://github.com/devnotcom",
           "description": { "en": "Turkish software developer community, articles, and event resources.", "tr": "Yazılımcılar için Türkçe makale, etkinlik ve topluluk kaynakları platformu." },
           "tags": ["community", "articles", "education"]
+        },
+        {
+          "name": "Linux Gündem Forum",
+          "repo_url": "https://forum.xn--linuxgndem-feb.com/",
+          "description": { "en": "Independent Turkish GNU/Linux, system administration, and open-source software community discussion platform and guide hub.", "tr": "Türkiye merkezli GNU/Linux dağıtımları, sunucu yönetimi ve açık kaynak teknolojileri üzerine bağımsız topluluk forumu ve teknik rehber arşivi." },
+          "tags": ["linux", "community", "open-source", "sysadmin", "devops"]
         }
       ]
     },

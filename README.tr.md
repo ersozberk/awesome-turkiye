@@ -93,6 +93,7 @@ Bu proje sadece statik bir liste değil, kendi kendini yöneten bir sistemdir:
 | 🚀 Proje | 📝 Açıklama | 🏷️ Etiketler |
 | :--- | :--- | :--- |
 | **[Devnot](https://github.com/devnotcom)** | Yazılımcılar için Türkçe makale, etkinlik ve topluluk kaynakları platformu. | `community`, `articles`, `education` |
+| **[Linux Gündem Forum](https://forum.xn--linuxgndem-feb.com/)** | Türkiye merkezli GNU/Linux dağıtımları, sunucu yönetimi ve açık kaynak teknolojileri üzerine bağımsız topluluk forumu ve teknik rehber arşivi. | `linux`, `community`, `open-source`, `sysadmin`, `devops` |
 
 <div align="right"><a href="#-içindekiler">⬆️ Başa Dön</a></div>
 
