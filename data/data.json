@@ -70,6 +70,12 @@
           "repo_url": "https://github.com/anonrig/slack-manager",
           "description": { "en": "Slack bot for running asynchronous daily standup meetings inside Slack channels.", "tr": "Slack kanalları üzerinden asenkron günlük standup toplantıları yürüten Slack botu." },
           "tags": ["slack", "bot", "standup", "nodejs"]
+        },
+        {
+          "name": "DoctorDock",
+          "repo_url": "https://github.com/iamcanturk/DoctorDock",
+          "description": { "en": "Offline Docker diagnostics CLI that finds security issues, misconfigurations and reclaimable disk, with no network calls or telemetry.", "tr": "Docker ortamındaki güvenlik sorunlarını, yanlış yapılandırmaları ve boşa giden diski ağ çağrısı ve telemetri olmadan bulan CLI aracı." },
+          "tags": ["docker", "security", "go", "cli"]
         }
       ]
     },
@@ -136,6 +142,12 @@
           "repo_url": "https://github.com/codefiction",
           "description": { "en": "One of the most popular software and technology podcasts in Turkey.", "tr": "Türkiye'nin en popüler yazılım, teknoloji ve mühendislik podcast topluluklarından biri." },
           "tags": ["podcast", "engineering", "community"]
+        },
+        {
+          "name": "Pixel Shorts",
+          "repo_url": "https://iamcanturk.dev/en/shorts/",
+          "description": { "en": "Daily Turkish short videos on security, AI agents and online scams, with an English transcript and checklist for every episode.", "tr": "Güvenlik, AI agent'ları ve dolandırıcılık üzerine günlük Türkçe kısa videolar; her bölümün metni ve kontrol listesi sitede." },
+          "tags": ["security", "video", "ai", "turkish"]
         }
       ]
     },
