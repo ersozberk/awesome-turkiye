@@ -124,6 +124,12 @@
           "repo_url": "https://github.com/devnotcom",
           "description": { "en": "Turkish software developer community, articles, and event resources.", "tr": "Yazılımcılar için Türkçe makale, etkinlik ve topluluk kaynakları platformu." },
           "tags": ["community", "articles", "education"]
+        },
+        {
+          "name": "re:make",
+          "repo_url": "https://github.com/remakeizmir",
+          "description": { "en": "Free, independent developer community in İzmir that meets in person every week and builds real projects together; open to all levels.", "tr": "İzmir'de her hafta yüz yüze buluşan, birlikte gerçek projeler geliştiren, her seviyeye açık bağımsız ve ücretsiz yazılım topluluğu." },
+          "tags": ["community", "meetup", "education"]
         }
       ]
     },
